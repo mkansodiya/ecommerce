@@ -2,6 +2,7 @@
 <?php include_once("admin/inc/db.php");
 ?>
 <?php
+// this is a change in the file
 $products = getProducts();
 $product = array();
 while ($p_data = mysqli_fetch_assoc($products)) {
